@@ -1,0 +1,27 @@
+
+    local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/zezinx/hub3/main/libraryme.lua", true))()
+    library:CreateWatermark("By zezinx") -- Config แตกนะเดียวค่อยแก้รอเน็ตมาก่อน By MeowX#0001
+    local CenterHubNo1 = library:CreateWindow("zinxware ",Enum.KeyCode.Insert)
+    local Tab = CenterHubNo1:CreateTab("Home")
+    local Sector1 = Tab:CreateSector("Hub V1","left")
+    Sector1:AddLabel("Aimblox Mod")
+    Sector1:AddButton("Silent Aim",function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/zezinx/hub2/main/lua.lua", true))()
+    end)
+
+    local Sector1 = Tab:CreateSector("Hub V2","right")
+    Sector1:AddLabel("KAT Mod")
+    Sector1:AddButton("OWL Hub",function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+    end)
+
+    local Sector1 = Tab:CreateSector("Hub V3","left")
+    Sector1:AddLabel("Phantom Forces Mod")
+    Sector1:AddButton("StrawHook (Private Cheat)",function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/strawhook/main/script.lua", true))()
+    end)
+
+	    local Tab = CenterHubNo1:CreateTab("Config")
+    Sector3:AddSeperator("Seperator By Center")
+    local Tab2 = CenterHubNo1:CreateTab("Config") -- Config แตกนะเดียวค่อยแก้รอเน็ตมาก่อน By MeowX#0001
+    Tab2:CreateConfigSystem() -- Config แตกนะเดียวค่อยแก้รอเน็ตมาก่อน By MeowX#0001 -- ห้ามนำไปแจกต่อนะจ๊ะ XD
